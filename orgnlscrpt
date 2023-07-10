@@ -21,15 +21,6 @@ MainSection:NewButton("Auto Farm 4", "Option4", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/BuildABoatForTreasure.lua"))()
 end)
 
-local MainSection = Main:NewSection("Auto-Build")
-MainSection:NewButton("Auto Build Old", "Option1", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/max2007killer/auto-build-not-limit/main/autobuild.txt"))()
-end)
-MainSection:NewButton("Auto Build New", "Option2", function()
-loadstring(((syn and syn.request) or (fluxus and fluxus.request) or request or http_request)({Url = "https://www.stenutilities.com/babft"})["Body"])()
-end)
-
-
 local Misc = Window:NewTab("Misc")
 
 local MiscSection = Misc:NewSection("Player")
